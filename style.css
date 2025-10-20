@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(header-bg.png);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    text-decoration: none;
+
+}
+.header.content{
+    color:whitesmoke;
+text-align: center;
+margin-bottom: 150px;
+}
+.header.content h2{
+    font-size: 4vmin;
+}
+.line{
+width: 150px;
+height: 4px;
+background-color:crimson;
+border-radius: 5px;
+margin: 10px auto;
+
+
+}
+.header.content h1{
+    font-size: 8vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+.ctn{
+    background-color: crimson;
+    border-radius: 30px;
+    padding: 8px 15px;
+}
+.navbar{
+   display: flex;
+   position: absolute;
+   top: 0;
+   left: 0;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+    color: whitesmoke;
+}
+ul{
+    list-style: none;
+   
+
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 20px;
+}
+.menu-btn{
+
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+    display: none;
+}
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: darkblue;
+} 
+.row{
+    display: flex;
+   gap: 50px;
+   align-items: center;
+   width: 100%;
+    justify-content: space-around;
+} 
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+} 
+.events .row {
+
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    color:#484872 ;
+    margin: 20px auto;
+}
+p {
+color: #63636b;
+    padding: 0px 40px;
+}
+.events .ctn {
+    margin-top: 30px;
+}
+body , html {
+    overflow-x: hidden;
+}
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url( bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+display: flex;
+}
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-content h1{
+    font-size: 7vmin;
+    margin: 50px;
+}
+.explore-content p{
+    color: white;
+}
+.explore-content .ctn{
+    margin-top: 40px;
+    
+}
+.explore-content .line{
+    margin-bottom: 50px;
+}
+.tours .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.image-gallery img{
+    
+    max-width: 300px;
+    margin: 10px;
+
+}
+.first-twoimg{
+    display: flex;
+    flex-direction: row;
+
+}
+.second-twoimg{
+    display: flex;
+    flex-direction: row;
+}
+    
+.myimg{
+    height: 240px;
+     width: 300px;
+}
+ .content-col{
+    width: 40%;
+}
+.image-col{
+    width: 40%;
+  
+}
+.content-col h1{
+    font-size: 7vmin;
+   color: #5e5e97;
+}
+.content-col .line{
+
+    margin-left: -1px;
+}
+.content-col p{
+    margin:30px auto;
+    padding: 0;
+    
+}
+.content-col .ctn{
+    margin-left: -100px;
+
+}
+.tours .row .col {
+    width: 50%;
+}
+.footer{
+width: 100%;
+height: 100px;
+text-align: center;
+background-color: #484872;
+margin: 0;
+padding: 20px 45px ;
+
+
+}
+.footer p{
+    color: whitesmoke;
+  margin: 30px auto;
+  padding: 20px auto;
+  font-size: 22px;
+}
+
+.ctn:hover{
+    background-color: whitesmoke;
+    color: blue;
+}
+img{
+transition: transform 0.3s ease;
+border-radius: 10px;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 850px){
+    
+    .navbar{
+        padding: 0;
+    }
+    .nav-links{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #13139f;
+margin-top: -900px;
+transition: all 10s ease;
+
+    }
+    .nav-links li{
+        margin: 30px auto;
+        
+    }
+    .mobile-menu{
+    margin-top: 0px;
+    border-bottom: right radius: 30%;
+}
+
+    .logo{
+        top: 30px;
+        left: 30px;
+        position: absolute;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .nav-links li {
+        margin: 30px auto;
+    }
+.row{
+    flex-direction: column;
+
+
+} 
+,row .col {
+   margin: 20px auto;
+   
+}
+.col img{
+    max-width: 90%;
+}
+.explore-content{
+    width: 100%;
+}
+.tours .col {
+    width: 100%;
+}
+.image-gallery{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.first-twoimg{
+    flex-direction: column;
+    
+}
+.second-twoimg{
+    flex-direction: column;
+    
+}
+.image-gallery img{
+    width: 90%;
+    
+}
+.footer{
+    padding: 10px;
+}
